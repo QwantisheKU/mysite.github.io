@@ -1,0 +1,39 @@
+.forpanel {
+    word-spacing: 10px; 
+}
+.b1 {
+    background: #FFFAFA;
+    height: 100%;
+    padding-top: 0px;
+    border-radius: 10px;
+    color: black;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	80% {
+		transform: translateY(-6px);
+		transform: translateY(-6px);
+	}
+}
+button:hover {
+	animation: bounce 1s;
+}
+a {
+    color: black;
+}
+a:checked {
+    color: black;
+}
+form {
+    padding-left: 1200px;
+}
