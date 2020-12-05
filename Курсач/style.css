@@ -19,3 +19,19 @@ body {
     margin-bottom: 20px;
     background-color: #FFFAFA;
 }
+@media only screen and (max-width : 480px) {
+    #menuframe  {
+    margin-right: 20px;
+    background-color: #FFFAFA;
+    }
+    #main {
+    margin-left: 20px;
+    background-color: #FFFAFA;
+    }
+    #upperpanel {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFAFA;
+    }    
+}
