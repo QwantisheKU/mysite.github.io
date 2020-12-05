@@ -5,30 +5,19 @@ body {
     background-color: whitesmoke;
 }
 
-@media only screen and (max-width : 480px) {
-    #menuframe  {
-    margin-right: 5%;
-    background-color: #FFFAFA;
-    }
-    #main {
-    margin-left: 5%;
-    background-color: #FFFAFA;
-    }
-    #upperpanel {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10%;
-    background-color: #FFFAFA;
-    }    
-}
+
 @media only screen and (max-width: 1920px) {
     #menuframe  {
         margin-right: 6.3%;
         background-color: #FFFAFA;
+        height: 0;
+        transition: height 2s;
     }
     #main {
         margin-left: 2%;
         background-color: #FFFAFA;
+        height: 0;
+        transition: height 2s;
     }
     #upperpanel {
         margin-left: 2%;
@@ -37,4 +26,21 @@ body {
         background-color: #FFFAFA;
     }
     
+}
+
+@media only screen and (max-width : 480px) {
+    #menuframe  {
+        margin-right: 5%;
+        background-color: #FFFAFA;
+    }
+    #main {
+        margin-left: 5%;
+        background-color: #FFFAFA;
+    }
+    #upperpanel {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    background-color: #FFFAFA;
+    }    
 }
