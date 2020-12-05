@@ -22,7 +22,7 @@ a {
     color: black;
 }
 .round {
-    border-radius: 100px;
+    border-radius: 60%;
     border: 3px solid #FA8072; 
     box-shadow: 0 0 10px #666; 
    }

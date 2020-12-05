@@ -28,8 +28,7 @@ a:checked {
     color: black;
 }
 form {
-    
-    margin-right: 0%;
+    margin-left: 25%;
     display: block; 
     word-spacing: 2%;
 }
