@@ -4,34 +4,37 @@ body {
 #rectangle {
     background-color: whitesmoke;
 }
-#menuframe  {
-    margin-right: 80px;
-    background-color: #FFFAFA;
-    
-}
-#main {
-    margin-left: 80px;
-    background-color: #FFFAFA;
-}
-#upperpanel {
-    margin-left: 80px;
-    margin-right: 60px;
-    margin-bottom: 20px;
-    background-color: #FFFAFA;
-}
+
 @media only screen and (max-width : 480px) {
     #menuframe  {
-    margin-right: 20px;
+    margin-right: 5%;
     background-color: #FFFAFA;
     }
     #main {
-    margin-left: 20px;
+    margin-left: 5%;
     background-color: #FFFAFA;
     }
     #upperpanel {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
     background-color: #FFFAFA;
     }    
+}
+@media only screen and (max-width: 1920px) {
+    #menuframe  {
+        margin-right: 6.3%;
+        background-color: #FFFAFA;
+    }
+    #main {
+        margin-left: 2%;
+        background-color: #FFFAFA;
+    }
+    #upperpanel {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 1%;
+        background-color: #FFFAFA;
+    }
+    
 }

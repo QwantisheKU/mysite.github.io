@@ -28,18 +28,18 @@ a {
 a:checked {
     color: black;
 }
-max-width: 992px {
-    
-}
-form {
-    padding-left: 1260px;
-    display: block; 
-    word-spacing: 5px;
-}
-@media only screen and (max-width : 375px) {
+@media only screen and (max-width : 1920px) {
     form {
-    padding-left: 100px;
+    padding-left: 75%;
     display: block; 
-    word-spacing: 5px;
+    word-spacing: 5%;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    form {
+    padding-left: 5%;
+    display: block; 
+    word-spacing: 5%;
     }
 }
