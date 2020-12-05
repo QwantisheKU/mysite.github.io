@@ -1,0 +1,28 @@
+button {
+    background-color: #F08080;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+p {
+    font-size: 20px;
+    text-indent: 20px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}  
+a {
+    text-decoration: none;
+    color: black;
+}
+.round {
+    border-radius: 100px;
+    border: 3px solid #FA8072; 
+    box-shadow: 0 0 10px #666; 
+   }
