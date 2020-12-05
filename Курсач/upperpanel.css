@@ -1,8 +1,7 @@
 .b1 {
     background: #FFFAFA;
     height: 100%;
-    padding-top: 0px;
-    border-radius: 10px;
+    border-radius: 15%;
     color: black;
 }
 @keyframes bounce {
@@ -28,18 +27,17 @@ a {
 a:checked {
     color: black;
 }
-@media only screen and (max-width : 1920px) {
-    form {
-    padding-left: 75%;
+form {
+    margin-left: 63%;
+    margin-right: -5%;
     display: block; 
     word-spacing: 5%;
-    }
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 375px) {
     form {
-    padding-left: 5%;
+    padding-left: 50%;
     display: block; 
-    word-spacing: 5%;
+    word-spacing: 50%;
     }
 }
