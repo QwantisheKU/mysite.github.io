@@ -33,12 +33,20 @@ form {
     word-spacing: 2%;
 }
 img {
-   
+   min-width: 120px;
 }
-@media only screen and (max-width : 375px) {
-    form {
-    padding-left: 50%;
-    display: block; 
-    word-spacing: 50%;
+@media only screen and (max-width : 1170px) {
+    img {
+        min-width:  130px;
+    }
+}
+@media only screen and (max-width : 1170px) {
+    img {
+        min-width:  100px;
+    }
+}
+@media only screen and (max-width : 340px) {
+    img {
+        min-width:  100px;
     }
 }
