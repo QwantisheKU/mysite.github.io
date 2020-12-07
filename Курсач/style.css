@@ -1,46 +1,73 @@
 body {
     background: url('images/double-bubble-dark.png');
+    overflow: hidden;
+    height: 100%;
 }
 #rectangle {
     background-color: whitesmoke;
 }
-
-
-@media only screen and (max-width: 1920px) {
-    #menuframe  {
-        margin-right: 6.3%;
-        background-color: #FFFAFA;
-        height: 0;
-        transition: height 2s;
-    }
-    #main {
-        margin-left: 2%;
-        background-color: #FFFAFA;
-        height: 0;
-        transition: height 2s;
-    }
-    #upperpanel {
-        margin-left: 2%;
-        margin-right: 2%;
-        margin-bottom: 1%;
-        background-color: #FFFAFA;
-    }
-    
+.picture-container {
+    height: '100%';
+    width: '100%';
+    background-color: rgba(0, 0, 0 / 70%);
+    z-index: 10;
+}
+#menuframe  {
+    margin-right: 6.3%;
+    background-color: #FFFAFA;
+    height: 0;
+    transition: height 2s;
+}
+#main {
+    margin-left: 2%;
+    background-color: #FFFAFA;
+    height: 0;
+    transition: height 2s;
+}
+#upperpanel {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    background-color: #FFFAFA;
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 1170px) {    
     #menuframe  {
-        margin-right: 5%;
-        background-color: #FFFAFA;
+        margin-right: 5.5%;   
     }
     #main {
-        margin-left: 5%;
-        background-color: #FFFAFA;
+        margin-left: 3.5%; 
     }
     #upperpanel {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10%;
-    background-color: #FFFAFA;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+        margin-bottom: 1.5%; 
+    }
+}
+@media only screen and (max-width : 1024px) {    
+    #menuframe  {
+        margin-right: 5.5%;
+    }
+    #main {
+        margin-left: 3.8%;
+    }
+    #upperpanel {
+        margin-left: 3.8%;
+        margin-right: 3.8%;
+        margin-bottom: 1.5%;
+    }
+}
+
+@media only screen and (max-width : 340px) {
+    #menuframe  {
+        margin-right: 5%;  
+    }
+    #main {
+        margin-left: 5%; 
+    }
+    #upperpanel {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
     }    
 }

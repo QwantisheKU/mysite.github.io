@@ -32,7 +32,9 @@ form {
     display: block; 
     word-spacing: 2%;
 }
-
+img {
+   
+}
 @media only screen and (max-width : 375px) {
     form {
     padding-left: 50%;
